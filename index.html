@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Nosso Livro de Memórias — Álbum Digital de Aniversário</title>
-  <meta name="description" content="Livro digital interativo 100% responsivo com virada de página 3D realista e páginas limpas para textos, fotos e vídeos." />
-  <meta property="og:title" content="Nosso Livro de Memórias — Álbum Digital de Aniversário" />
-  <meta property="og:description" content="Livro digital interativo 100% responsivo com virada de página 3D realista e páginas limpas para textos, fotos e vídeos." />
+  <title>A vida em um ano — Álbum Digital de Aniversário</title>
+  <meta name="description" content="Livro digital interativo 100% responsivo com virada de página 3D realista." />
+  <meta property="og:title" content="A vida em um ano — Álbum Digital de Aniversário" />
+  <meta property="og:description" content="Livro digital interativo 100% responsivo com virada de página 3D realista." />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -24,7 +24,7 @@
   <canvas id="confetti-canvas"></canvas>
 
   <!-- ==========================================================================
-       LIVRO DIGITAL INTERATIVO (10 PÁGINAS LIMPAS PARA TEXTO, FOTO E VÍDEO)
+       LIVRO DIGITAL INTERATIVO (9 PÁGINAS)
        ========================================================================== -->
   <main class="stage-wrapper" id="book-stage">
     <div class="book-shell">
@@ -87,19 +87,16 @@
           <!-- FOLHA ESQUERDA (FOTO OU VÍDEO) -->
           <div class="sheet-left">
             <div class="sheet-header">
-              <!-- [PÁGINA 2] TÍTULO DA FOLHA ESQUERDA -->
               <h2 class="sheet-title">Capítulo 1</h2>
               <span class="sheet-number">PÁGINA 02</span>
             </div>
 
             <div class="sheet-content">
               <div class="bloco-foto">
-                <!-- [PÁGINA 2] SUBSTITUA O src="..." PELO LINK OU CAMINHO DA SUA FOTO -->
                 <img
                   src="./assets/foto1.jpg"
                   alt="Foto da Página 2"
                 />
-                <!-- [PÁGINA 2] LEGENDA DA FOTO -->
                 <p class="legenda-midia">05/10/25</p>
               </div>
             </div>
@@ -113,16 +110,14 @@
           <!-- FOLHA DIREITA (TEXTO) -->
           <div class="sheet-right">
             <div class="sheet-header">
-              <!-- [PÁGINA 2] TÍTULO DO TEXTO -->
               <h2 class="sheet-title">Memórias do Ano</h2>
-              <span class="sheet-number">02 / 10</span>
+              <span class="sheet-number">02 / 09</span>
             </div>
 
             <div class="sheet-content">
-              <!-- [PÁGINA 2] ESCREVA SEU TEXTO ABAIXO -->
               <div class="bloco-texto">
                 <p>
-                  Eramos distantes, mas exalavamos proximidade, eu te conhecia como se tivesse lido mais de 30 vezes o seu livro. Eu te queria comigo. 
+                  Eramos distantes, mas exalavamos proximidade, eu te conhecia como se tivesse lido mais de 30 vezes o seu livro. Eu te queria comigo.
                 </p>
               </div>
               <p class="nota-manuscrita">
@@ -144,7 +139,6 @@
           <!-- FOLHA ESQUERDA (DUAS FOTOS) -->
           <div class="sheet-left">
             <div class="sheet-header">
-              <!-- [PÁGINA 3] TÍTULO -->
               <h2 class="sheet-title">Galeria de Fotos</h2>
               <span class="sheet-number">PÁGINA 03</span>
             </div>
@@ -152,7 +146,6 @@
             <div class="sheet-content">
               <div class="grid-fotos-2">
                 <div class="bloco-foto">
-                  <!-- [PÁGINA 3 - FOTO 1] SUBSTITUA O src="..." ABAIXO -->
                   <img
                     src="./assets/foto2.JPG"
                     alt="Foto 1 da Página 3"
@@ -161,9 +154,8 @@
                 </div>
 
                 <div class="bloco-foto">
-                  <!-- [PÁGINA 3 - FOTO 2] SUBSTITUA O src="..." ABAIXO -->
                   <img
-                    src="./assets/foto4.JPG"
+                    src="./assets/foto4.jpg"
                     alt="Foto 2 da Página 3"
                   />
                   <p class="legenda-midia">05/11/25</p>
@@ -181,23 +173,21 @@
           <div class="sheet-right">
             <div class="sheet-header">
               <h2 class="sheet-title">Momentos &amp; Relatos</h2>
-              <span class="sheet-number">03 / 10</span>
+              <span class="sheet-number">03 / 09</span>
             </div>
 
             <div class="sheet-content">
               <div class="bloco-foto">
-                <!-- [PÁGINA 3 - FOTO 3] SUBSTITUA O src="..." ABAIXO -->
                 <img
-                  src="./assets/foto3.JPG"
+                  src="./assets/foto3.jpg"
                   alt="Foto 3 da Página 3"
                 />
-                <p>09/11/25</p>
+                <p class="legenda-midia">09/11/25</p>
               </div>
 
-              <!-- [PÁGINA 3] ESCREVA SEU TEXTO ABAIXO -->
               <div class="bloco-texto">
                 <p>
-                    Nesses dias, eu estava conhecendo a parte 2 do seu livro, entendendo seus medos, seus receios e recebendo tudo com muito amor. Pois "o amor lança fora todo o medo."
+                  Nesses dias, eu estava conhecendo a parte 2 do seu livro, entendendo seus medos, seus receios e recebendo tudo com muito amor. Pois "o amor lança fora todo o medo."
                 </p>
               </div>
             </div>
@@ -210,30 +200,28 @@
         </section>
 
         <!-- ====================================================================
-             PÁGINA 4: VÍDEO + TEXTO
+             PÁGINA 4: FOTO + TEXTO
              ==================================================================== -->
         <section class="book-page" data-page="4">
-          <!-- FOLHA ESQUERDA (VÍDEO) -->
+          <!-- FOLHA ESQUERDA -->
           <div class="sheet-left">
             <div class="sheet-header">
-              <!-- [PÁGINA 4] TÍTULO DA FOTO -->
               <h2 class="sheet-title">Registro em Foto</h2>
               <span class="sheet-number">PÁGINA 04</span>
             </div>
 
             <div class="sheet-content">
               <div class="bloco-video">
-                <!-- [PÁGINA 4] COLOQUE O CAMINHO DO SEU VÍDEO EM src="seu-video.mp4" -->
-                <img 
-                src="./assets/foto5.JPG" 
-                alt="foto da página 4" 
+                <img
+                  src="./assets/foto5.JPG"
+                  alt="Foto da Página 4"
                 />
                 <p class="legenda-midia">01/01/26</p>
               </div>
             </div>
 
             <div class="sheet-footer">
-              <span>foto</span>
+              <span>Foto</span>
               <span>04</span>
             </div>
           </div>
@@ -241,12 +229,11 @@
           <!-- FOLHA DIREITA (TEXTO) -->
           <div class="sheet-right">
             <div class="sheet-header">
-              <h2 class="sheet-title">Ínicio de 2026</h2>
-              <span class="sheet-number">04 / 10</span>
+              <h2 class="sheet-title">Início de 2026</h2>
+              <span class="sheet-number">04 / 09</span>
             </div>
 
             <div class="sheet-content">
-              <!-- [PÁGINA 4] ESCREVA SEU TEXTO ABAIXO -->
               <div class="bloco-texto">
                 <p>
                   Depois do medo ser lançado fora, eu te queria mais que antes. A partir desse momento, decidimos seguir em frente para um namoro sério, porém, falar com seus pais era crucial. Lembro que você estava com vergonha kkkkkkkkk "espera eu não estar em casa e você fala com eles".
@@ -262,83 +249,24 @@
         </section>
 
         <!-- ====================================================================
-             PÁGINA 5: TEXTO CORRIDO / CARTA LIMPA
+             PÁGINA 5: ENCONTRO (VÍDEO + TEXTO + FOTO)
              ==================================================================== -->
         <section class="book-page" data-page="5">
-          <!-- FOLHA ESQUERDA (TEXTO PAUTADO) -->
+          <!-- FOLHA ESQUERDA (TEXTO + VÍDEO) -->
           <div class="sheet-left">
             <div class="sheet-header">
-              <!-- [PÁGINA 5] TÍTULO -->
-              <h2 class="sheet-title">Carta / Texto Livre</h2>
+              <h2 class="sheet-title">Encontro</h2>
               <span class="sheet-number">PÁGINA 05</span>
             </div>
 
             <div class="sheet-content">
-              <!-- [PÁGINA 5 - ESQUERDA] ESCREVA SEU TEXTO ABAIXO -->
-              <div class="bloco-texto folha-pautada">
-                <p>
-                  Esta folha possui pautas horizontais sutis, ideais para escrever um texto mais longo, uma carta de aniversário ou uma lembrança especial.
-                </p>
-                <p>
-                  Se preferir a folha totalmente lisa sem linhas, basta remover a classe <code>folha-pautada</code> desta <code>div</code>.
-                </p>
-              </div>
-            </div>
-
-            <div class="sheet-footer">
-              <span>Folha Pautada</span>
-              <span>05</span>
-            </div>
-          </div>
-
-          <!-- FOLHA DIREITA (CONTINUAÇÃO DO TEXTO OU FOTO) -->
-          <div class="sheet-right">
-            <div class="sheet-header">
-              <h2 class="sheet-title">Continuação</h2>
-              <span class="sheet-number">05 / 10</span>
-            </div>
-
-            <div class="sheet-content">
-              <!-- [PÁGINA 5 - DIREITA] ESCREVA SEU TEXTO ABAIXO -->
-              <div class="bloco-texto folha-pautada">
-                <p>
-                  Continuação do seu texto na folha direita. Aqui você tem bastante espaço para escrever livremente com a mesma tipografia limpa.
-                </p>
-              </div>
-              <p class="nota-manuscrita">
-                Assinatura ou nota final.
-              </p>
-            </div>
-
-            <div class="sheet-footer">
-              <span>Manuscrito</span>
-              <span>Folha Direita</span>
-            </div>
-          </div>
-        </section>
-
-        <!-- ====================================================================
-             PÁGINA 6: VIAGENS / PASSEIOS (FOTOS + TEXTO)
-             ==================================================================== -->
-        <section class="book-page" data-page="6">
-          <!-- FOLHA ESQUERDA (TEXTO + FOTO) -->
-          <div class="sheet-left">
-            <div class="sheet-header">
-              <!-- [PÁGINA 6] TÍTULO -->
-              <h2 class="sheet-title">Encontro</h2>
-              <span class="sheet-number">PÁGINA 06</span>
-            </div>
-
-            <div class="sheet-content">
-              <!-- [PÁGINA 6] TEXTO -->
               <div class="bloco-texto">
                 <p>
-                  Enfim, nosso primeiro encontro. Você estava linda... conversamos, brincamos, nos aproximamos mais. 
+                  Enfim, nosso primeiro encontro. Você estava linda... conversamos, brincamos, nos aproximamos mais.
                 </p>
               </div>
 
               <div class="bloco-foto">
-                <!-- [PÁGINA 6 - FOTO 1] SUBSTITUA O src="..." ABAIXO -->
                 <video controls playsinline src="./assets/encontro1.mp4"></video>
                 <p class="legenda-midia">A partir disso, veio a ansiedade do que queríamos, um namoro.</p>
               </div>
@@ -346,23 +274,22 @@
 
             <div class="sheet-footer">
               <span>Registro</span>
-              <span>06</span>
+              <span>05</span>
             </div>
           </div>
 
-          <!-- FOLHA DIREITA (FOTO GRANDE + LEGENDA) -->
+          <!-- FOLHA DIREITA (FOTO + LEGENDA) -->
           <div class="sheet-right">
             <div class="sheet-header">
               <h2 class="sheet-title">Texto</h2>
-              <span class="sheet-number">06 / 10</span>
+              <span class="sheet-number">05 / 09</span>
             </div>
 
             <div class="sheet-content">
               <div class="bloco-foto">
-                <!-- [PÁGINA 6 - FOTO 2] SUBSTITUA O src="..." ABAIXO -->
-                 <img
+                <img
                   src="./assets/foto7.jpg"
-                  alt="Foto da Página 6"
+                  alt="Foto da Página 5"
                 />
                 <p class="legenda-midia">Tinhamos nossas rotinas e a melhor forma de nos conectar era nos intervalos do dia a dia.</p>
               </div>
@@ -376,53 +303,49 @@
         </section>
 
         <!-- ====================================================================
-             PÁGINA 7: PÁGINA MISTA (FOTO + VÍDEO + TEXTO)
+             PÁGINA 6: O DIA (VÍDEO + FOTO + TEXTO)
              ==================================================================== -->
-        <section class="book-page" data-page="7">
-          <!-- FOLHA ESQUERDA (FOTO + TEXTO) -->
+        <section class="book-page" data-page="6">
+          <!-- FOLHA ESQUERDA (VÍDEO) -->
           <div class="sheet-left">
             <div class="sheet-header">
-              <!-- [PÁGINA 7] TÍTULO -->
               <h2 class="sheet-title">O dia</h2>
-              <span class="sheet-number">PÁGINA 07</span>
+              <span class="sheet-number">PÁGINA 06</span>
             </div>
 
             <div class="sheet-content">
               <div class="bloco-foto">
-                <!-- [PÁGINA 7 - FOTO] SUBSTITUA O src="..." ABAIXO -->
                 <video
                   controls
                   playsinline
                   src="./assets/videodobeijo.mp4"
                 ></video>
                 <p class="legenda-midia">Foi chegado o dia do nosso primeiro beijo kkkkkkkkkkk. Curiosamente, foi assistindo essa bomba da "Lara Dino".</p>
-              </div> 
+              </div>
             </div>
 
             <div class="sheet-footer">
-              <span>Fotografia &amp; Texto</span>
-              <span>07</span>
+              <span>Vídeo &amp; Memória</span>
+              <span>06</span>
             </div>
           </div>
 
-          <!-- FOLHA DIREITA (VÍDEO + TEXTO) -->
+          <!-- FOLHA DIREITA (FOTO + TEXTO) -->
           <div class="sheet-right">
             <div class="sheet-header">
               <h2 class="sheet-title">Memórias em Foto</h2>
-              <span class="sheet-number">07 / 10</span>
+              <span class="sheet-number">06 / 09</span>
             </div>
 
             <div class="sheet-content">
               <div class="bloco-video">
-                <!-- [PÁGINA 7 - VÍDEO] SUBSTITUA O src="..." ABAIXO -->
-                <img 
-                src="./assets/foto8.jpg" 
-                alt="Foto da Página 7"
+                <img
+                  src="./assets/foto8.jpg"
+                  alt="Foto da Página 6"
                 />
                 <p class="legenda-midia">KKKKKKKKK aqui eu te apresentei o mundo do Lázaro.</p>
               </div>
 
-              <!-- [PÁGINA 7 - TEXTO DIREITO] -->
               <div class="bloco-texto">
                 <p>
                   Mais que um beijo, você era tudo o que eu queria naquele momento, não me importava se foi ruim ou bom, era você com quem eu queria fazer aquilo.
@@ -438,29 +361,27 @@
         </section>
 
         <!-- ====================================================================
-             PÁGINA 8: VÍDEO EM DESTAQUE + TEXTO
+             PÁGINA 7: MENSAGEM ESPECIAL + VÍDEO EM DESTAQUE
              ==================================================================== -->
-        <section class="book-page" data-page="8">
+        <section class="book-page" data-page="7">
           <!-- FOLHA ESQUERDA (TEXTO) -->
           <div class="sheet-left">
             <div class="sheet-header">
-              <!-- [PÁGINA 8] TÍTULO -->
               <h2 class="sheet-title">Mensagem Especial</h2>
-              <span class="sheet-number">PÁGINA 08</span>
+              <span class="sheet-number">PÁGINA 07</span>
             </div>
 
             <div class="sheet-content">
-              <!-- [PÁGINA 8] ESCREVA SEU TEXTO ABAIXO -->
               <div class="bloco-texto">
                 <p>
-                  E a partir da nossa decisão de um namoro que ecoou em muitos pontos de nossas vidas, vivemos o plano do Senhor, aproveitando cada momento como casal e amigos. 
+                  E a partir da nossa decisão de um namoro que ecoou em muitos pontos de nossas vidas, vivemos o plano do Senhor, aproveitando cada momento como casal e amigos.
                 </p>
               </div>
             </div>
 
             <div class="sheet-footer">
               <span>Dedicatória</span>
-              <span>08</span>
+              <span>07</span>
             </div>
           </div>
 
@@ -468,12 +389,11 @@
           <div class="sheet-right">
             <div class="sheet-header">
               <h2 class="sheet-title">Vídeo em Destaque</h2>
-              <span class="sheet-number">08 / 10</span>
+              <span class="sheet-number">07 / 09</span>
             </div>
 
             <div class="sheet-content">
               <div class="bloco-video">
-                <!-- [PÁGINA 8] COLOQUE O CAMINHO DO SEU VÍDEO EM src="seu-video.mp4" -->
                 <video
                   controls
                   playsinline
@@ -491,35 +411,33 @@
         </section>
 
         <!-- ====================================================================
-             PÁGINA 9: TEXTO + FOTO
+             PÁGINA 8: PLANOS & NOTAS + FOTOGRAFIA
              ==================================================================== -->
-        <section class="book-page" data-page="9">
+        <section class="book-page" data-page="8">
           <!-- FOLHA ESQUERDA (TEXTO) -->
           <div class="sheet-left">
             <div class="sheet-header">
-              <!-- [PÁGINA 9] TÍTULO -->
               <h2 class="sheet-title">Planos &amp; Notas</h2>
-              <span class="sheet-number">PÁGINA 09</span>
+              <span class="sheet-number">PÁGINA 08</span>
             </div>
 
             <div class="sheet-content">
-              <!-- [PÁGINA 9] ESCREVA SEU TEXTO ABAIXO -->
               <div class="bloco-texto">
                 <p>
                   Através de muita oração, Deus me concedeu um presente.
                 </p>
                 <p>
-                  Feliz aniversário minha pessoa favorita!!  
+                  Feliz aniversário minha pessoa favorita!!
                 </p>
                 <p>
-                  Te amo muito!!  
+                  Te amo muito!!
                 </p>
               </div>
             </div>
 
             <div class="sheet-footer">
               <span>Notas</span>
-              <span>09</span>
+              <span>08</span>
             </div>
           </div>
 
@@ -527,15 +445,14 @@
           <div class="sheet-right">
             <div class="sheet-header">
               <h2 class="sheet-title">Fotografia</h2>
-              <span class="sheet-number">09 / 10</span>
+              <span class="sheet-number">08 / 09</span>
             </div>
 
             <div class="sheet-content">
               <div class="bloco-foto">
-                <!-- [PÁGINA 9] SUBSTITUA O src="..." PELO LINK OU CAMINHO DA SUA FOTO -->
                 <img
                   src="./assets/foto9.jpg"
-                  alt="Foto da Página 9"
+                  alt="Foto da Página 8"
                 />
                 <p class="legenda-midia">09/08/26</p>
               </div>
@@ -549,14 +466,13 @@
         </section>
 
         <!-- ====================================================================
-             PÁGINA 10: CONTRACAPA / ENCERRAMENTO
+             PÁGINA 9: CONTRACAPA / ENCERRAMENTO
              ==================================================================== -->
-        <section class="book-page single-sheet" data-page="10">
+        <section class="book-page single-sheet" data-page="9">
           <div class="cover-sheet">
-            <span class="cover-kicker">PÁGINA FINAL · 10 DE 10</span>
+            <span class="cover-kicker">PÁGINA FINAL · 9 DE 9</span>
 
             <div>
-              <!-- [PÁGINA 10] EDITE O TÍTULO E MENSAGEM FINAL ABAIXO -->
               <h2 class="cover-title">Feliz Aniversário</h2>
               <p class="cover-subtitle">
                 Em breve mais páginas.
@@ -588,7 +504,7 @@
     </button>
 
     <div class="progress-center">
-      <span class="progress-label" id="progress-text">Página 1 de 10</span>
+      <span class="progress-label" id="progress-text">Página 1 de 9</span>
       <div class="progress-dots" id="progress-dots"></div>
     </div>
 

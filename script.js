@@ -1,7 +1,8 @@
 /* ==========================================================================
    JAVASCRIPT: VIRADA DE PÁGINA 3D, SOM DE PAPEL (WEB AUDIO API) E SWIPE
    ========================================================================== */
-const TOTAL_PAGES = 10;
+const pagesList = document.querySelectorAll('.book-page');
+const TOTAL_PAGES = pagesList.length || 9;
 let currentPage = 1;
 let isFlipping = false;
 let audioCtx = null;
@@ -81,7 +82,7 @@ function updateUI() {
 
   const spine = document.getElementById('spine-overlay');
   if (spine) {
-    spine.style.display = (currentPage > 1 && currentPage < 10) ? 'block' : 'none';
+    spine.style.display = (currentPage > 1 && currentPage < TOTAL_PAGES) ? 'block' : 'none';
   }
 
   const progressText = document.getElementById('progress-text');
@@ -135,7 +136,7 @@ export function prevPage() {
   if (currentPage > 1) goToPage(currentPage - 1);
 }
 
-/* Confetes discretos nas cores da paleta na Página 10 */
+/* Confetes discretos nas cores da paleta na última página */
 const canvas = document.getElementById('confetti-canvas');
 const ctx = canvas ? canvas.getContext('2d') : null;
 let pieces = [];
