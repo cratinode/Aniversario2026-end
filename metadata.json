@@ -1,0 +1,5 @@
+{
+  "name": "Nosso Livro de Memórias — Álbum Digital de Aniversário",
+  "description": "Livro digital interativo estilo scrapbook de aniversário com virada de página 3D realista, som de folhear sintetizado via Web Audio API e 10 páginas personalizáveis.",
+  "requestFramePermissions": []
+}
